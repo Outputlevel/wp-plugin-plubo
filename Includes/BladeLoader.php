@@ -1,6 +1,6 @@
 <?php
 
-namespace PluginPlaceholder\Includes;
+namespace WpPluginPlubo\Includes;
 
 use Jenssegers\Blade\Blade;
 
@@ -12,8 +12,8 @@ class BladeLoader
     private function __construct()
     {
         $this->blade = new Blade(
-            PLUGIN_PLACEHOLDER_PATH . 'resources/views',
-            PLUGIN_PLACEHOLDER_PATH . 'resources/cache'
+            WPPLUGINPLUBO_PATH . 'resources/views',
+            WPPLUGINPLUBO_PATH . 'resources/cache'
         );
     }
 
